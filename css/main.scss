@@ -1,21 +1,12 @@
 @charset "UTF-8";
 
 @font-face {
-    font-display: swap;
-    font-family: "Jost";
-    src: local("Jost"), url("/fonts/Jost-Regular.ttf") format("embedded-opentype"), url("fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("fonts/MullerNarrow-ExtraBold.otf") format("opentype");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "MyriadPro-Regular";
-    src: local("MyriadPro-Regular"), url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "MyriadPro-Bold_0";
-    src: local("MyriadPro-Bold_0"), url("fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold_0.woff") format("woff"), url("fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("fonts/MyriadPro-Bold_0.otf") format("opentype");
+    font-family: 'Jost';
+    src: local('Jost'),
+        url('/fonts/Jost-Regular.woff2') format('woff2'),
+        url('/fonts/Jost-Regular.woff') format('woff'),
+        url('/fonts/Jost-Regular.ttf') format('ttf'),
+        url('/fonts/Jost-Regular.eot') format('eot');
 }
 
 .top-header {
