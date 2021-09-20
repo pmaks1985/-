@@ -1,24 +1,59 @@
 @font-face {
-  font-display: swap;
-  font-family: "Jost";
-  src: local("Jost"), url("/fonts/Jost-Regular.ttf") format("embedded-opentype"), url("fonts/MullerNarrow-ExtraBold.woff") format("woff"), url("fonts/MullerNarrow-ExtraBold.ttf") format("truetype"), url("fonts/MullerNarrow-ExtraBold.otf") format("opentype");
+  font-family: 'Jost';
+  src: local("Jost"), url("/fonts/Jost-Regular.woff2") format("woff2"), url("/fonts/Jost-Regular.woff") format("woff"), url("/fonts/Jost-Regular.ttf") format("ttf"), url("/fonts/Jost-Regular.eot") format("eot");
 }
 
-@font-face {
-  font-display: swap;
-  font-family: "MyriadPro-Regular";
-  src: local("MyriadPro-Regular"), url("fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.ttf") format("truetype"), url("fonts/MyriadPro-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "MyriadPro-Bold_0";
-  src: local("MyriadPro-Bold_0"), url("fonts/MyriadPro-Bold_0.eot?#iefix") format("embedded-opentype"), url("fonts/MyriadPro-Bold_0.woff") format("woff"), url("fonts/MyriadPro-Bold_0.ttf") format("truetype"), url("fonts/MyriadPro-Bold_0.otf") format("opentype");
+body {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3F3F3F;
 }
 
 .top-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.rectangle {
+  color: #2974E4;
+}
+
+.select-region {
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 14px;
+}
+
+.select-region_text {
+  color: #686868;
+}
+
+.logo_img {
+  background-image: url("/img/logo.svg");
+  width: 75px;
+  height: 75px;
+}
+
+.logo_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+  border-right: 3px solid #E0E0E0;
+}
+
+.logo_description {
+  font-size: 13px;
+  line-height: 120%;
 }
 /*# sourceMappingURL=main.css.map */
