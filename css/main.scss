@@ -43,6 +43,7 @@ body {
 
 .select-region_text {
     color: #686868;
+    padding-right: 15px;
 }
 
 .logo_img {
@@ -81,6 +82,8 @@ body {
 
 .nav-link {
     color: #3F3F3F;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .nav-link:hover {
@@ -90,6 +93,7 @@ body {
 .nav-item {
     text-align: center;
     line-height: 120%;
+    padding-right: 40px;
 }
 
 .contact-us {
@@ -97,18 +101,26 @@ body {
     font-weight: 500;
 }
 
-.phone::before {
-    content: url("/img/phone.png");
-    padding-right: 11px;
+.phone_img {
+    background-image: url("/img/phone.png");
+    margin-right: 11px;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
 }
 
 .phone>a {
     color: #2974E4;
 }
 
-.letter::before {
-    content: url("/img/letter.png");
-    padding-right: 11px;
+.letter_img {
+    background-image: url("/img/letter.png");
+    margin-right: 11px;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 19px;
 }
 
 .letter>a {
@@ -119,14 +131,23 @@ body {
     padding-right: 18px;
 }
 
-.clock::before {
-    content: url("/img/clock.png");
-    padding-right: 11px;
+.clock_img {
+    background-image: url("/img/clock.png");
+    margin-right: 11px;
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
 }
 
-.exit::before {
-    content: url("/img/exit.png");
-    padding-right: 11px;
+.exit_img {
+    content: url("");
+    background-image: url("/img/exit.png");
+    margin-right: 11px;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 23px;
 }
 
 .exit>a {
