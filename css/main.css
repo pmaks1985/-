@@ -12,8 +12,11 @@ body {
   color: #3F3F3F;
 }
 
+/* header */
 .container-desktop {
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-header {
@@ -159,5 +162,68 @@ body {
 
 .dropdown-toggle::after {
   display: none;
+}
+
+header {
+  padding-bottom: 25px;
+}
+
+.propb-link {
+  color: #4F4F4F;
+}
+
+.propb-link:hover,
+.letter > a:hover,
+.exit > a:hover {
+  color: #686868;
+}
+
+/* content */
+.drawing {
+  width: 100%;
+  background-image: url("/img/drawing.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 694px;
+  margin-bottom: 70px;
+}
+
+.drawing_title {
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding-bottom: 42px;
+}
+
+.drawing_description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  color: #FFFFFF;
+  width: 60%;
+  padding-bottom: 46px;
+}
+
+.drawing_button {
+  line-height: 160%;
+  color: #2974E4;
+  padding: 16px 25px 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.drawing-width {
+  max-width: 550px;
+  top: 17%;
+  left: 13%;
+}
+
+.about-factory {
+  font-weight: 500;
+  font-size: 32px;
+  color: #151515;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
