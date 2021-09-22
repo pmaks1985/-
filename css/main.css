@@ -74,6 +74,10 @@ body {
   margin-right: 9px;
 }
 
+.menu > .navbar {
+  padding-top: 30px;
+}
+
 .nav-link {
   color: #3F3F3F;
   padding-right: 0 !important;
@@ -91,7 +95,7 @@ body {
 }
 
 .contact-us {
-  line-height: 210%;
+  line-height: 180%;
   font-weight: 500;
 }
 
