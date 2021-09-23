@@ -225,7 +225,8 @@ header {
 }
 
 .about-factory,
-.why-are-we {
+.why-are-we,
+.our-services {
   font-weight: 500;
   font-size: 32px;
   color: #151515;
@@ -338,5 +339,43 @@ header {
 
 .why-are-we-point_indent {
   margin-bottom: 85px;
+}
+
+.our-services-description {
+  line-height: 180%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.our-services-cards {
+  margin-bottom: 48px;
+}
+
+.our-services-card {
+  border: 2px dashed #EEEEEE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 7px;
+  margin: 0px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212121;
+  padding: 32px 55px;
+}
+
+.our-services-card:hover {
+  border: 2px solid #2974E4;
+  cursor: pointer;
+}
+
+.our-services-card_elipse {
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 96%;
+  left: 45%;
 }
 /*# sourceMappingURL=main.css.map */
