@@ -232,6 +232,10 @@ header {
   padding-bottom: 45px;
 }
 
+.about-factory-cards {
+  margin-bottom: 130px;
+}
+
 .about-factory-card {
   background: #FAFAFA;
   border-radius: 10px;
@@ -250,5 +254,59 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.about-factory-card_text {
+  text-align: center;
+}
+
+.benefits-1 {
+  background-image: url("/img/benefits-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 58px;
+  margin-bottom: 25px;
+}
+
+.benefits-2 {
+  background-image: url("/img/benefits-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 58px;
+  margin-bottom: 25px;
+}
+
+.benefits-3 {
+  background-image: url("/img/benefits-3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+.benefits-4 {
+  background-image: url("/img/benefits-4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 56px;
+  margin-bottom: 25px;
+}
+
+.benefits-5 {
+  background-image: url("/img/benefits-5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 58px;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=main.css.map */
