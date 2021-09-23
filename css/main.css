@@ -178,6 +178,10 @@ header {
   color: #686868;
 }
 
+.navbar-nav > .nav-item:last-child {
+  padding-right: 0;
+}
+
 /* content */
 .drawing {
   width: 100%;
