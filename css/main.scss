@@ -233,4 +233,16 @@ header {
     font-size: 32px;
     color: #151515;
     text-align: center;
+    padding-bottom: 45px;
+}
+
+.about-factory-card {
+    background: #FAFAFA;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
