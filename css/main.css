@@ -224,7 +224,8 @@ header {
   left: 13%;
 }
 
-.about-factory {
+.about-factory,
+.why-are-we {
   font-weight: 500;
   font-size: 32px;
   color: #151515;
@@ -232,8 +233,9 @@ header {
   padding-bottom: 45px;
 }
 
-.about-factory-cards {
-  margin-bottom: 130px;
+.about-factory-cards,
+.why-are-we-points {
+  margin-bottom: 100px;
 }
 
 .about-factory-card {
@@ -288,7 +290,7 @@ header {
   background-position: center;
   width: 100%;
   min-height: 50px;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .benefits-4 {
@@ -309,5 +311,28 @@ header {
   width: 100%;
   min-height: 58px;
   margin-bottom: 25px;
+}
+
+.why-are-we {
+  max-width: 770px;
+  line-height: 150%;
+}
+
+.why-are-we-point {
+  max-width: 576px;
+}
+
+.why-are-we-point_title {
+  font-size: 22px;
+  line-height: 160%;
+  color: #19478C;
+  font-weight: 500;
+  padding-bottom: 10px;
+  max-width: 550px;
+}
+
+.why-are-we-point_description {
+  line-height: 180%;
+  color: #4E4E4E;
 }
 /*# sourceMappingURL=main.css.map */
