@@ -21,7 +21,7 @@ body {
 /* header */
 
 .container-desktop {
-    max-width: 1440px;
+    max-width: 1360px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -251,7 +251,7 @@ header {
 .about-factory-card {
     background: #FAFAFA;
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     margin-right: 33px;
     display: flex;
     flex-direction: column;
@@ -357,7 +357,7 @@ header {
     border: 2px dashed #EEEEEE;
     box-sizing: border-box;
     border-radius: 7px;
-    margin: 0px 20px;
+    margin-right: 20px;
     font-weight: 500;
     font-size: 20px;
     line-height: 160%;
@@ -377,6 +377,11 @@ header {
     height: 40px;
     top: 96%;
     left: 45%;
+    display: none;
+}
+
+.our-services-card:hover .our-services-card_elipse {
+    display: block;
 }
 
 .algorithm-img {
@@ -385,9 +390,9 @@ header {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 7px;
-    /*width: 100%;*/
     min-height: 420px;
     min-width: 785px;
+    margin-right: 66px;
 }
 
 .algorithm-text {
@@ -399,4 +404,8 @@ header {
 .algorithm-text>div>span {
     color: #2974E4;
     padding-right: 5px;
+}
+
+.algorithm {
+    margin-bottom: 100px;
 }
