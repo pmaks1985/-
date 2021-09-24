@@ -234,7 +234,8 @@ header {
 
 .about-factory,
 .why-are-we,
-.our-services {
+.our-services,
+.how-work {
     font-weight: 500;
     font-size: 32px;
     color: #151515;
@@ -340,7 +341,8 @@ header {
     margin-bottom: 85px;
 }
 
-.our-services-description {
+.our-services-description,
+.how-work-description {
     line-height: 180%;
     text-align: center;
     color: #000000;
@@ -348,7 +350,7 @@ header {
 }
 
 .our-services-cards {
-    margin-bottom: 48px;
+    margin-bottom: 100px;
 }
 
 .our-services-card {
@@ -375,4 +377,26 @@ header {
     height: 40px;
     top: 96%;
     left: 45%;
+}
+
+.algorithm-img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)), url("/img/choise-form.png");
+    background-repeat: no-repeat;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 7px;
+    /*width: 100%;*/
+    min-height: 420px;
+    min-width: 785px;
+}
+
+.algorithm-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 230%;
+}
+
+.algorithm-text>div>span {
+    color: #2974E4;
+    padding-right: 5px;
 }
