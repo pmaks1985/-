@@ -227,11 +227,16 @@ header {
 .about-factory,
 .why-are-we,
 .our-services,
-.how-work {
+.how-work,
+.our-partners {
   font-weight: 500;
   font-size: 32px;
   color: #151515;
   text-align: center;
+  padding-bottom: 17px;
+}
+
+.about-factory {
   padding-bottom: 45px;
 }
 
@@ -343,7 +348,8 @@ header {
 }
 
 .our-services-description,
-.how-work-description {
+.how-work-description,
+.our-partners-description {
   line-height: 180%;
   text-align: center;
   color: #000000;
@@ -384,6 +390,10 @@ header {
 
 .our-services-card:hover .our-services-card_elipse {
   display: block;
+}
+
+.our-services-card > span {
+  color: #888888;
 }
 
 .algorithm-img {
@@ -431,5 +441,50 @@ header {
 
 .personal-area-link:hover {
   color: #686868;
+}
+
+.russia {
+  background-image: url("/img/russia.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  min-height: 750px;
+  max-width: 1200px;
+}
+
+.cities-of-russia {
+  top: 22%;
+  line-height: 180%;
+  color: #626262;
+}
+
+.cities-of-russia_block > div {
+  margin-bottom: 30px;
+}
+
+.our-partners-button {
+  top: 95%;
+  left: 35%;
+}
+
+.our-partners-button_text {
+  margin: 0px 10px;
+  padding: 16px 25px 20px;
+  background: #2974E4;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 330px;
+}
+
+.our-partners-button_text:hover {
+  color: #FFFFFF;
+}
+
+.our-partners-position {
+  top: 5%;
+  left: 22%;
 }
 /*# sourceMappingURL=main.css.map */
