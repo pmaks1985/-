@@ -576,6 +576,7 @@ footer {
 .footer-line {
   border-top: 1px solid #EEEEEE;
   width: 80%;
+  margin-bottom: 36px;
 }
 
 .phone-footer {
@@ -615,5 +616,9 @@ footer {
 
 .ask-a-question_margin {
   margin-right: 33px;
+}
+
+.right-block-footer {
+  padding-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
