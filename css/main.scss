@@ -493,12 +493,16 @@ header {
 .license-slide1,
 .license-slide2,
 .license-slide3,
-.license-slide4 {    
+.license-slide4 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     width: 100%;
     min-height: 490px;
+}
+
+.blur {
+    margin-bottom: 100px;
 }
 
 .blur .right-blur {
@@ -509,4 +513,49 @@ header {
     opacity: 1;
     z-index: 1;
     left: 91%;
+}
+
+.questions {
+    padding: 40px 45px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 440px;
+    text-align: center;
+}
+
+.questions-title {
+    font-size: 32px;
+    line-height: 150%;
+    color: #151515;
+    padding-bottom: 17px;
+}
+
+.questions-description {
+    color: #000000;
+    padding-bottom: 17px;
+}
+
+.questions-phone {
+    color: #626262;
+    padding-bottom: 35px;
+}
+
+.questions-phone>div {
+    color: #2974E4;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+
+.questions-button {
+    color: #F2473C;
+    margin: 0px 10px;
+    padding: 16px 25px 20px;
+    border: 2px solid #F2473C;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 10px 0px;
+    font-weight: 500;
+    min-width: 318px;
 }
