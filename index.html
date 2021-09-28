@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <title>Главная</title>
 </head>
@@ -287,12 +288,40 @@
                     </div>
                 </a>
             </div>
-
+        </div>
+        <div class="license">
+            Лицензии и сертификаты
+        </div>
+        <div class="owl-carousel">
+            <div class="license-slide1"></div>
+            <div class="license-slide2"></div>
+            <div class="license-slide3"></div>
+            <div class="license-slide4"></div>
         </div>
 
 
     </div>
 
+    <script>
+        $(document).ready(function () {
+            $('#carouselOne').owlCarousel({
+                loop: true, //Зацикливаем слайдер
+                margin: 20, //Отступ от элемента справа в 50px
+                nav: true, //Отключение навигации
+                responsive: { //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+        });
+    </script>
 
 
 
@@ -302,6 +331,8 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
 </body>
 
 </html>

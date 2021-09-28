@@ -228,7 +228,8 @@ header {
 .why-are-we,
 .our-services,
 .how-work,
-.our-partners {
+.our-partners,
+.license {
   font-weight: 500;
   font-size: 32px;
   color: #151515;
@@ -486,5 +487,22 @@ header {
 .our-partners-position {
   top: 5%;
   left: 22%;
+}
+
+.license {
+  margin-top: 95px;
+  padding-bottom: 30px;
+}
+
+.license-slide1,
+.license-slide2,
+.license-slide3,
+.license-slide4 {
+  background-image: url("/img/license.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  min-height: 490px;
 }
 /*# sourceMappingURL=main.css.map */
