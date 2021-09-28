@@ -292,23 +292,33 @@
         <div class="license">
             Лицензии и сертификаты
         </div>
-        <div class="owl-carousel">
-            <div class="license-slide1"></div>
-            <div class="license-slide2"></div>
-            <div class="license-slide3"></div>
-            <div class="license-slide4"></div>
+        <div class="blur position-relative">
+            <div class="owl-carousel owl-theme">
+                <div class="license-slide1" style="background-image: url('/img/license.png');"></div>
+                <div class="license-slide2" style="background-image: url('/img/license.png');"></div>
+                <div class="license-slide3" style="background-image: url('/img/license.png');"></div>
+                <div class="license-slide4" style="background-image: url('/img/license.png');"></div>
+            </div>
+            <div class="right-blur position-absolute"></div>
         </div>
+
+
 
 
     </div>
 
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
     <script>
         $(document).ready(function () {
-            $('#carouselOne').owlCarousel({
-                loop: true, //Зацикливаем слайдер
-                margin: 20, //Отступ от элемента справа в 50px
-                nav: true, //Отключение навигации
-                responsive: { //Адаптивность. Кол-во выводимых элементов при определенной ширине.
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: true,
+                responsive: {
                     0: {
                         items: 1
                     },
@@ -322,16 +332,6 @@
             });
         });
     </script>
-
-
-
-
-
-
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
 
 </body>
 
