@@ -149,7 +149,6 @@ body {
 }
 
 .exit_img {
-    content: url("");
     background-image: url("/img/exit.png");
     margin-right: 11px;
     background-size: cover;
@@ -181,7 +180,8 @@ header {
 
 .propb-link:hover,
 .letter>a:hover,
-.exit>a:hover {
+.exit>a:hover,
+.ask-a-question>a:hover {
     color: #686868;
 }
 
@@ -522,6 +522,7 @@ header {
     border-radius: 10px;
     max-width: 440px;
     text-align: center;
+    margin-bottom: 104px;
 }
 
 .questions-title {
@@ -558,4 +559,54 @@ header {
     margin: 10px 0px;
     font-weight: 500;
     min-width: 318px;
+}
+
+/*footer*/
+
+footer {
+    margin-bottom: 67px;
+}
+
+.footer-line {
+    border-top: 1px solid #EEEEEE;
+    width: 80%;
+}
+
+.phone-footer {
+    margin: 0 44px 0 15px;
+}
+
+.phone-footer>a,
+.letter-footer>a {
+    color: #888888;
+}
+
+.letter-footer {
+    margin-right: 37px;
+}
+
+.clock-footer {
+    color: #000000;
+}
+
+.clock-footer>span {
+    color: #888888;
+}
+
+.ask-a-question>a {
+    color: #212121;
+}
+
+.ask-a-question_img {
+    background-image: url("/img/question.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 11px;
+}
+
+.ask-a-question_margin {
+    margin-right: 33px;
 }
