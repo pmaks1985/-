@@ -574,7 +574,7 @@ footer {
 }
 
 .phone-footer {
-    margin: 0 44px 0 15px;
+    margin: 0 44px 0 17px;
 }
 
 .phone-footer>a,
@@ -614,4 +614,36 @@ footer {
 
 .right-block-footer {
     padding-top: 30px;
+}
+
+.privacy-policy {
+    margin-right: 30px;
+}
+
+.policy-and-rights {
+    margin: 17px 0 31px;
+
+}
+
+.privacy-policy>a,
+.rights-reserved {
+    color: #888888;
+}
+
+.nordsoft {
+    background-image: url("/img/nordsoft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 124px;
+    height: 21px;
+    margin-left: 21px;
+}
+
+.right-block-footer>a {
+    color: #626262;
+}
+
+#navbarFooterContent li.nav-item {
+    padding-right: 25px;
 }
