@@ -88,7 +88,8 @@ body {
 }
 
 .nav-link:hover {
-  color: #686868;
+  color: #212529;
+  font-weight: bold;
 }
 
 .nav-item {
