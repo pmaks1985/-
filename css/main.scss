@@ -1,12 +1,17 @@
 @charset "UTF-8";
-
 @font-face {
     font-family: 'Jost';
-    src: local('Jost'),
-        url('/fonts/Jost-Regular.woff2') format('woff2'),
-        url('/fonts/Jost-Regular.woff') format('woff'),
-        url('/fonts/Jost-Regular.ttf') format('ttf'),
-        url('/fonts/Jost-Regular.eot') format('eot');
+    src: local('Jost'), url('/fonts/Jost-Regular.woff2') format('woff2'), url('/fonts/Jost-Regular.woff') format('woff'), url('/fonts/Jost-Regular.ttf') format('ttf'), url('/fonts/Jost-Regular.eot') format('eot');
+}
+
+@font-face {
+    font-family: 'Jost-Medium';
+    src: local("Jost-Medium"), url("/fonts/Jost-Medium.woff2") format("woff2"), url("/fonts/Jost-Medium.woff") format("woff"), url("/fonts/Jost-Medium.ttf") format("ttf"), url("/fonts/Jost-Medium.eot") format("eot");
+}
+
+@font-face {
+    font-family: 'Jost-SemiBold';
+    src: local("Jost-SemiBold"), url("/fonts/Jost-SemiBold.woff2") format("woff2"), url("/fonts/Jost-SemiBold.woff") format("woff"), url("/fonts/Jost-SemiBold.ttf") format("ttf"), url("/fonts/Jost-SemiBold.eot") format("eot");
 }
 
 body {
@@ -17,6 +22,7 @@ body {
     line-height: 160%;
     color: #3F3F3F;
 }
+
 
 /* header */
 
@@ -189,6 +195,7 @@ header {
 .navbar-nav>.nav-item:last-child {
     padding-right: 0;
 }
+
 
 /* content */
 
@@ -567,6 +574,7 @@ header {
     background-color: #F2473C;
 }
 
+
 /*footer*/
 
 footer {
@@ -628,7 +636,6 @@ footer {
 
 .policy-and-rights {
     margin: 17px 0 31px;
-
 }
 
 .privacy-policy>a,
